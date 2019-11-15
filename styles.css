@@ -1,0 +1,191 @@
+    
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/fondo3.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+.header-container nav{
+    font-family: 'Lato', sans-serif;
+    height: 80px;
+    display: flex;
+}
+
+.header-container nav ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header-container nav li{
+    color: white;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.header {
+    width: 50vw;
+    font-family: 'Lato', sans-serif;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+}
+
+.text_header {
+    color: rgb(143, 5, 5);
+    margin-left: 30px;
+}
+
+.text_header_name {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.text_header_desc {
+    font-size: 56px;
+    font-weight: bold;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+    height: auto;
+    width: auto;
+    margin: 60px;
+    padding: 0;
+    
+  
+}
+.welcome{
+    border-radius: 25px;
+}
+.welcome{
+    box-shadow: 2px 2px 10px #666;  
+    box-shadow: 5px -5px 0 2px #444;  
+    box-shadow: 5px 5px 25px #222 inset;
+}
+
+/* Container2 */
+
+.separador{
+    border: 15px;
+    background-color: black;
+    
+}
+.separador2{
+    border: 15px;
+    background-color: black;
+}
+
+.container2{
+    position: relative;
+    height: auto;
+    width: auto;
+    
+    
+}
+
+.section2{
+    
+    background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
+    background-color: rgb(89, 146, 252);
+    
+}
+.section2{
+    padding-left: 30%;
+    margin: 45px;
+    height: 30vh;
+    border-radius: 25px;   
+}
+
+.section2{
+    box-shadow: 2px 2px 10px #666;  
+    box-shadow: 5px -5px 0 2px #444;  
+    box-shadow: 5px 5px 25px #222 inset;
+}
+
+.text_hacer{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 40px 0 0;
+    padding-top: 35px;
+    
+}
+.text_hacer2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-left: 30px;
+    font-size: 20px;
+    display: flex;
+    align-self: flex-end;
+}
+
+/* cards */
+
+.container3{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container3 .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgb(222, 231, 247);
+}
+
+.container3 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container3 .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container3 .card h4{
+    font-weight: 600;
+}
+
+.container3 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container3 .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(8, 10, 107);
+}
